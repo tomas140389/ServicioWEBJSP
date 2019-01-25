@@ -6,13 +6,13 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDao implements CRUD{
+public class UserDao /* implements CRUD*/{
     
     PreparedStatement pst;
     ResultSet rs;
     Connection cn;
     Conexion con  = new Conexion();
-    
+    /*
     @Override
     public List listar(){
         List<User> datos = new ArrayList<>();
@@ -59,4 +59,5 @@ public class UserDao implements CRUD{
     public User delete(){
         
     }
+*/
 }
